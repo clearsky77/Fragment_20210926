@@ -3,15 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D4F4FA"
     android:orientation="vertical"
+    android:background="#00D8FF"
     android:gravity="center"
-    tools:context=".firstFragment">
+    tools:context=".SecondFragment">
 
-<Button
-    android:id="@+id/fragBtn"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="프레그먼트로 로그찍기"/>
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/toastBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="프래그먼트에서 토스트"/>
 
 </LinearLayout>
