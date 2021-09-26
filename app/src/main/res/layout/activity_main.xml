@@ -7,16 +7,24 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <fragment
-        android:id="@+id/firstFrag"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        class="com.clearsky77.fragment_20210926.firstFragment"/>
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <fragment
+                android:id="@+id/firstFrag"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                class="com.clearsky77.fragment_20210926.firstFragment"/>
 
-    <fragment
-        android:id="@+id/secondFrag"
-        android:layout_width="match_parent"
-        android:layout_height="400dp"
-        class="com.clearsky77.fragment_20210926.SecondFragment"/>
-
+            <fragment
+                android:id="@+id/secondFrag"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                class="com.clearsky77.fragment_20210926.SecondFragment"/>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
